@@ -1,0 +1,24 @@
+<h3>各同業間CRM的結果比較</h3>
+
+<div>
+	<p>1. β=於特定期間，先透過同業購買服務，再從可樂購買服務的人數。</p>
+	<p>2. 以2010年為標準。</p>
+</div>
+
+<div>
+	<tr>
+		<th>Agent ID</th>
+		<th>Value of β</th>
+	</tr>
+</div>
+
+<p></p>
+
+<%@data.each do|c|%>
+<div>
+	<%=label_tag(c[0])%>
+	<%=label_tag(c[1])%>
+</div>
+
+</br> 
+<%end%>
